@@ -1,0 +1,23 @@
+.global {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+}
